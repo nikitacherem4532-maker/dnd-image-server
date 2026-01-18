@@ -1,0 +1,12 @@
+{
+  "name": "dnd-image-server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node api/generate.js"
+  },
+  "dependencies": {
+    "@vercel/node": "^2.0.0",
+    "dotenv": "^16.0.0",
+    "replicate": "^0.25.1"
+  }
+}
